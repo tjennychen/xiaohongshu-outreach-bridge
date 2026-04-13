@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Playwright browser profile (CDP session data)
+.pw-profile/
+
+# Debug screenshots
+*.png
+
+# SQLite databases
+*.db
+
+# Data exports
+*.csv
+
+# JSON data files (keep package manifests)
+*.json
+!package.json
+!package-lock.json
